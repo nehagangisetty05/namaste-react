@@ -19,3 +19,21 @@
 - HTTPs
 - Tree shaking - remove unused code
 - Different dev and prod bundles
+
+
+# layout
+ * Header
+ *  - Logo
+ *  - Nav Items
+ * Body
+ *  - Search
+ *  - RestaurantContainer
+ *      -ResraurantCard
+ *          - img
+ *          - name, star rating, cuisine, delivery time
+ * Footer
+ *  - Copyright
+ *  - Links
+ *  - Address
+ *  - Contact
+ 

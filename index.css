@@ -11,14 +11,10 @@
     background-color: rgb(235, 230, 222);
 }
 
-/* .logo img{
-    width: 100px;
-} */
-
 .logo{
     width: 120px;
     height: 80px;
-    background-image: url(./asset/foodlogo.png);
+    background-image: url(./src/asset/foodlogo.png);
     background-position: center;
     background-size: 100% 100%;
     margin: 5px;
@@ -53,13 +49,19 @@
 
 .search{
     margin-top: 20px;
-    width: 40%;
+    width: 80%;
     background-color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border-radius: 1vw;
     box-shadow: 2px 2px 2px black;
+    padding: 10px 20px;
+}
+
+.search div{
+    display: flex;
+    align-items: center;
 }
 
 .search input{
